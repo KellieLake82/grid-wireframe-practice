@@ -1,22 +1,30 @@
-<!DOCTYPE html>     
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="grid-container">
-        <header>HEADER</header>
-        <section class="articles">
-            <article>ARTICLE</article>
-            <article>ARTICLE</article>
-            <article>ARTICLE</article>
-        </section>
-        <aside>ASIDE</aside>
-        <footer>FOOTER</footer>
-    </div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Grid Layout</title>
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <header>HEADER</header>
+
+  <div class="grid-container">
+    <aside class="left">ASIDE</aside>
+
+    <article>
+      ARTICLE
+      <div class="columns">
+        <div class="column">COLUMN</div>
+        <div class="column">COLUMN</div>
+        <div class="column">COLUMN</div>
+      </div>
+    </article>
+
+    <aside class="right">ASIDE</aside>
+  </div>
+
+  <footer>FOOTER</footer>
 </body>
-    </html>
+</html>
